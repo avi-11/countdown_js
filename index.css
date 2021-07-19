@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('img.jpg') no-repeat center center/cover;
+}
+
+.head{
+    text-align: center;
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.date-both{
+    display: flex;
+    justify-content: space-between;
+}
+
+.startDate{
+    margin: 1rem 1rem;
+}
+
+.startDate h2{
+    text-align: center;
+    color: gold;
+    padding: 1rem 0px;
+}
+
+#day1{
+    width: 3rem;
+    height: 2rem;
+    border: 3px solid darkslateblue;
+    border-radius: 1rem;
+    text-align: center;
+}
+#year1{
+    width: 4rem;
+    height: 2rem;
+    border: 3px solid darkslateblue;
+    border-radius: 1rem;
+    text-align: center;
+}
+#month1{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 3px solid darkslateblue;
+}
+
+#day2{
+    width: 3rem;
+    height: 2rem;
+    border: 3px solid darkslateblue;
+    border-radius: 1rem;
+    text-align: center;
+}
+#year2{
+    width: 4rem;
+    height: 2rem;
+    border: 3px solid darkslateblue;
+    border-radius: 1rem;
+    text-align: center;
+}
+#month2{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 3px solid darkslateblue;
+}
+
+.button{
+    text-align: center;
+    padding: 1rem 0px;
+}
+
+.reset{
+    border: 2px solid dodgerblue;
+    border-radius: 1rem;
+    width: 3rem;
+}
+
+.go{
+    border: 2px solid dodgerblue;
+    border-radius: 1rem;
+    width: 3rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.countelm{
+    text-align: center;
+    margin: 0 7rem;
+}
+
+.big-text{
+    font-size: 5rem;
+    font-family: cursive;
+    color: darkturquoise;
+}
+
+.countelm span{
+    font-size: 2rem;
+    font-family: cursive;
+    color: gold;
+}
