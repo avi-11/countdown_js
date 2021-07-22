@@ -48,11 +48,9 @@ go.addEventListener('click', (e) => {
         document.querySelector('#Seconds').innerHTML=0;
 
         document.querySelector('#day1').value='';
-        document.querySelector('#month1').value='';
         document.querySelector('#year1').value='';
 
         document.querySelector('#day2').value='';
-        document.querySelector('#month2').value='';
         document.querySelector('#year2').value='';
     });
    
