@@ -19,7 +19,7 @@ go.addEventListener('click', (e) => {
     let end= new Date(date2);
 
     let time=end - start;
-    setInterval((e) => {
+    let setint=setInterval((e) => {
         if(time>0){
             time--;
             const days=Math.floor(time/86400000);
@@ -41,7 +41,7 @@ go.addEventListener('click', (e) => {
     },1000);
     reset.addEventListener('click',(e) => {
 
-        clearInterval(e);
+        clearInterval(setint);
         document.querySelector('#days').innerHTML=0;
         document.querySelector('#Hours').innerHTML=0;
         document.querySelector('#Minutes').innerHTML=0;
